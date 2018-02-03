@@ -1,0 +1,58 @@
+body{
+background-color: rgb(211,211,211);
+}
+
+/*---------------------------Css For NavBar---------------------------*/ 
+.navbar{
+background-color: black;
+}
+.navbar-nav li{
+padding-left: 25px;
+}
+.navbar-nav li a{
+font-size: 20px;
+font-family: 'Montserrat';
+
+}
+.navbar-brand{
+font-size: 30px;
+font-family: 'Lobster';
+padding-right: 30px;
+}
+
+/*---------------------------Css For Card---------------------------*/ 
+.card{
+padding-bottom: 0rem;
+}
+.card-body{
+padding: 0rem;
+background-color: rgb(102,205,170);
+}
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+font-size: 2rem;
+background-color: rgba(0,0,0,0.6);
+}
+.card:hover .overlay {
+opacity: 1;
+}
+.card-title{
+	white-space: nowrap;
+	overflow: hidden;
+}
+/*---------------------------Css For Card---------------------------*/ 
+.jumbotron{
+background-color: rgb(47,79,79);
+color: white;
+}
+ .footer-caption{
+color: rgb(255,228,181);
+}
